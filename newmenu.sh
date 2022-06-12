@@ -185,7 +185,7 @@ if [[ $(cat /opt/.ver) = $serverV ]] > /dev/null 2>&1; then
     fi
 else
     if [[ $x -eq 999 ]]; then
-       wget -q -O /usr/bin/update-script "https://raw.githubusercontent.com/scvpn/scriptvps/main/dll/system/update-script.sh" && chmod +x /usr/bin/update-script
+       wget -q -O /usr/bin/update-script "https://raw.githubusercontent.com/kulo-sinten/tes-vps/main/dll/system/update-script.sh" && chmod +x /usr/bin/update-script
        screen -S upds update-script
        menu
     elif [[ $x -eq 1 ]]; then
